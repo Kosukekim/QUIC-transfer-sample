@@ -19,11 +19,11 @@ First, cloning repository.
   git clone https://github.com/Kosukekim/QUIC-transfer-sample.git
 
 You can boot web server as following:
-.. code -block:: console
+.. code-block:: console
   uvicorn api.main:app --reload
 
 Finally, server and client simply runned as follows:
-.. code -block:: console
+.. code-block:: console
   python ./server.py
   python ./client.py
 
