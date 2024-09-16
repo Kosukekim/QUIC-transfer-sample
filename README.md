@@ -20,7 +20,7 @@ First, cloning repository.
   git clone https://github.com/Kosukekim/QUIC-transfer-sample.git
 
 You can boot web server as following:
-.. code-block:: console
+```bash
   uvicorn api.main:app --reload
 
 Finally, server and client simply runned as follows:
