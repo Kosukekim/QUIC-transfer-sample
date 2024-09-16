@@ -23,12 +23,15 @@ First, cloning repository.
 You can boot web server as following:
 ```bash
   uvicorn api.main:app --reload
+```
 
 Finally, server and client simply runned as follows:
-.. code-block:: console
+```bash
   python ./server.py
+```
+```bash
   python ./client.py
-
+```
 You will see following communication between server and client!
 ![image](https://github.com/user-attachments/assets/47e11046-c4bc-4f8d-82a5-073e0eec825d)
 
