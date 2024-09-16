@@ -16,8 +16,7 @@ Usage
 ---------------
 First, cloning repository.
 
-.. code-block:: console
-
+```bash
   git clone https://github.com/Kosukekim/QUIC-transfer-sample.git
 
 You can boot web server as following:
@@ -33,7 +32,4 @@ You will see following communication between server and client!
 ![image](https://github.com/user-attachments/assets/47e11046-c4bc-4f8d-82a5-073e0eec825d)
 
 
-.. code-block:: console
-
-   sudo apt install libssl-dev python3-dev
 
